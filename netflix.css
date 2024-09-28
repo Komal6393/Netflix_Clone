@@ -1,0 +1,250 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: Arial;
+    box-sizing: border-box;
+}
+body{
+    background: #000;
+    color:#fff;
+} 
+.header{
+    width: 100%;
+    height:100vh;
+    background-image: linear-gradient(rgba(0, 0 ,0 , 0.7), rgba(0, 0, 0, 0.7)), url("header-image.png");   
+    background-size: cover;
+    background-position: center;
+    padding:10px 8%;
+    position: relative;
+    border-bottom: 2px solid rgb(241, 13, 51);
+}
+.logo{
+    height:48px;
+}
+.lang-button{
+    height: 32px;
+    width: 105px;
+    background-color: transparent;
+    color:white;
+    margin-left: 834px;
+    /* border:2px solid white; */
+    cursor: pointer;
+    font-size: 17px;
+    border-radius: 3px;
+}
+.button{
+    height:30px;
+    width:95px;
+    background-color: red;
+    color:white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.header-content{
+    height:151px;
+    width: 574px;
+    margin-left:368px;
+    margin-top:225px;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center; 
+}
+#heading{
+    font-size: 55px;
+}
+#para{
+    font-size: 20px;
+}
+
+.input{
+    height: 100px;
+    width:625px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* gap: 16px; */
+    margin-top:-6px;
+    margin-left: -28px;
+   
+}
+.email{
+    background-color: transparent;
+    height: 55px;
+    width:415px;
+    font-size: 19px;
+   /* margin-top: 15px; */
+   /* margin-right: 467px; */
+    
+}
+.start-button{
+    height: 57px;
+    width:205px;
+    padding:0.25rem 0.5rem;
+    background-color: rgba(236, 10, 10, 0.921); 
+    font-size: 24px;
+    color: #fff;
+    border-radius:6px;
+}
+/* --------------features----------------*/
+.feature{
+    padding: 50px 12%;
+    font-size: 23px;
+  
+}
+.row{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding:50px 0;
+}
+
+.content{
+    flex-basis:50%;
+    margin-bottom:20px;
+}
+.img-col{
+    flex-basis:50%;
+    margin-bottom:20px;
+}    
+.img-col img{
+    display: block;
+    width:90%;
+    margin:auto;
+}
+.feature h2{
+    font-size:50px;
+    font-weight: 600;
+    margin-bottom:20px;
+}
+/*------------ faq---------- */
+.faq{
+    padding:10px 12%;
+    text-align: center;
+    font-size: 18px;
+}
+.faq h2{
+    font-weight: 500;
+    font-size: 40px;
+}
+.accordion{
+    margin:60px auto;
+    width:100%;
+    max-width: 750px;
+}
+.accordion li{
+    list-style: none;
+    width:100%;
+    padding:5px;
+}
+.accordion li label{
+    display: flex;
+    align-items: center;
+    padding:20px;
+    font-size: 18px;
+    font-weight: 500;
+    background: #303030;
+    margin-bottom: 2px;
+    cursor: pointer;
+    position:relative;
+}
+label::after{
+    content:'+';
+    font-size: 34px;
+    position:absolute;
+    right: 20px;
+    transition: transform 0.5s;
+}
+input[type="radio"]{
+    display: none;
+}
+.accordion .con{
+    background: #303030;
+    text-align: left;
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s, padding 0.5s;
+}
+.accordion input[type="radio"]:checked + label + .con{
+    max-height: 600px;
+    padding:30px 20px;
+}
+.accordion input[type="radio"]:checked + label::after{
+    transform:rotate(135deg);
+}
+
+
+/* ---LAST EMAIL--- */
+.lastEmail{
+    
+    text-align: center;
+    align-items: center;
+}
+.newEmail{
+
+    height: 56px;
+    width:567px;
+    border-radius: 4px;
+    color:white;
+ 
+}
+.newButton{   
+    background-color: rgba(221, 11, 11, 0.89);
+    color: #fff;
+    height: 56px;
+    width:207px;
+    border-radius: 4px;
+    font-size: 23px;
+    
+}
+.new-email{
+    height:56px;
+    margin-top: 5px;
+    
+}
+footer{
+    margin-top: 100px;
+}
+.last-content{
+    /* border:2px solid red; */
+    height: 50px;
+    width: 500px;
+    margin-left: -26px;
+    color: #fff;
+    /* margin-top: 100px; */
+    /* display: flex;
+    justify-content: center;
+     align-items: center; */
+    /* text-align: center; */ 
+}
+.foot-panel2{
+    width:1205px;
+    border: 2px solid black;
+    margin-left: 100px;
+    margin-top: 35px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.foot-panel2 a{
+    color: rgb(162, 160, 160);
+}
+.last{
+    margin-left:-1210px;
+    background-color:  rgb(16, 14, 14) ;
+}
+.netflix{
+    height: 100px;
+    margin-top: 50px;
+    margin-right:1217px;
+    color:  rgb(162, 160, 160);
+}
+
+
+
+
+
+
+ 
